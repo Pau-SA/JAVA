@@ -13,7 +13,6 @@ public class Enunciat2 {
 
         System.out.print("El teu nom es " + nom + " i la teva edat es " + edat);
 
-
         teclat.close();
 
 
