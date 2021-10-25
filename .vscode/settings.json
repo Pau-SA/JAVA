@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "02_Condicions/src",
         "01_Variables/src",
-        "02_Condicions/src"
+        "03_Enunciat1/src"
     ]
 }
