@@ -1,0 +1,119 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Condicions",
+            "request": "launch",
+            "mainClass": "Condicions",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat1",
+            "request": "launch",
+            "mainClass": "Enunciat1",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat11",
+            "request": "launch",
+            "mainClass": "Enunciat11",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat12",
+            "request": "launch",
+            "mainClass": "Enunciat12",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat2",
+            "request": "launch",
+            "mainClass": "Enunciat2",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat3",
+            "request": "launch",
+            "mainClass": "Enunciat3",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat4",
+            "request": "launch",
+            "mainClass": "Enunciat4",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat6",
+            "request": "launch",
+            "mainClass": "Enunciat6",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat7",
+            "request": "launch",
+            "mainClass": "Enunciat7",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat_01",
+            "request": "launch",
+            "mainClass": "Enunciat_01",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat_02",
+            "request": "launch",
+            "mainClass": "Enunciat_02",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat_03",
+            "request": "launch",
+            "mainClass": "Enunciat_03",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat_04",
+            "request": "launch",
+            "mainClass": "Enunciat_04",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat_05",
+            "request": "launch",
+            "mainClass": "Enunciat_05",
+            "projectName": "JAVA_5c564501"
+        }
+    ]
+}
