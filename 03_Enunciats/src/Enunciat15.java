@@ -24,8 +24,12 @@ public class Enunciat15 {
 
         resultat = (float) Math.pow(ah,be);
 
-        System.out.println("El resultat de la operació es " + resultat);
+
+        System.out.println("El resultat de la operació es " + resultat); 
+
     }
+
+
 }
 
 

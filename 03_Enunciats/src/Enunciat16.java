@@ -1,30 +1,30 @@
 import java.util.Scanner;
 
 public class Enunciat16 {
-    public static void main(String[] args) throws Exception {
-        double ah, be, resultat;
-
+    public static void main(String[] args) {
         Scanner teclat = new Scanner(System.in);
+        int nombreA, nombreB;
 
         do {
-
-            System.out.print("Entra el PRIMER nombre ");
-            ah = teclat.nextDouble();
-
-            System.out.print("Entra el SEGON nombre ");
-            be = teclat.nextDouble();
-
-            if ((ah <= 0) || (be <= 0)) {
-                System.out.println("ERROR!!!");
+            
+            System.out.print("Entra el primer dels nombres: ");
+            nombreA = teclat.nextInt();
+            System.out.print("Entra el segon dels nombres: ");
+            nombreB = teclat.nextInt();
+            
+            if ((nombreA < 0) || (nombreB < 0)) {
+                System.out.println("ERROR! Torna a intentar-ho!");
             }
 
-        } while ((ah <= 0) || (be <= 0));
+        } while ((nombreA < 0) || (nombreB < 0));
 
-        if (ah % be == 0) {
-            System.out.println("El resultat es divisor");
+        if (nombreB % nombreA == 0) {
+            System.out.println(nombreA + " és divisor de " + nombreB);
         } else {
-            System.out.println("El resultat no es divisor");
+            System.out.println(nombreA + " NO és divisor de " + nombreB);
         }
 
+        teclat.close();
     }
+
 }
