@@ -17,9 +17,7 @@ public class Enunciat20 {
             nombreAleatori++;
         }
 
-
         System.out.println("Nombre aleatori: " + nombreAleatori);
-
 
         do { // REPETIR
 
@@ -36,13 +34,13 @@ public class Enunciat20 {
             // El nombre llegit és correcte, és a dir no és una lletra!
 
 
+
             
             if (nombreLlegit > nombreAleatori) { // (nombreLlegit <= nombreAleatori)
                 System.out.print("El nombre és més petit.\nTorna a intentar-ho!\n");
 
             } else if (nombreLlegit < nombreAleatori) { // (nombreLlegit < nombreAleatori)
                 System.out.print("El nombre és més gran.\nTorna a intentar-ho!\n");
-
 
             } else { // (nombreLlegit = nombreAleatori)
                 nombreEncertat = true;
@@ -52,10 +50,9 @@ public class Enunciat20 {
 
             intents++;
 
-        } while (nombreEncertat == false); // MENTRES ???
-
+        } while (nombreEncertat == false); // MENTRES nombre encertat sigui fals
 
         System.out.print("Ho has aconseguit en " + intents + " intents!");
         teclat.close();
     }
-} 
+}

@@ -63,7 +63,8 @@ public class Enunciat18 {
         System.out.println("A la discoteca poden " + contador);
 
        
-
+        teclatlletres.close();
+        teclatnumeros.close();
 
 
 

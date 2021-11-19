@@ -14,7 +14,7 @@ public class Enunciat17 {
 		double importTotal;
 		String nomGranger;
 		String opcioEscollida;
-		char opcioEscollidaLletra;
+		// char opcioEscollidaLletra;
 		double preuProducte;
 		double qtatDeGrangers;
 		int[] qtatDeCadaTipus = { 0, 0, 0, 0 };

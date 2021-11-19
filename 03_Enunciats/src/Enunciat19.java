@@ -1,4 +1,3 @@
-import java.util.Dictionary;
 import java.util.Scanner;
 
 public class Enunciat19 {
@@ -6,7 +5,7 @@ public class Enunciat19 {
     Scanner teclat = new Scanner(System.in);
 
     int dia, mes, any;
-                                          // (|| = O     && = I)
+   // (|| = O     && = I)
     System.out.println("Entra el dia: ");
     dia = teclat.nextInt();
 
@@ -40,7 +39,7 @@ public class Enunciat19 {
 
 
 
-
+teclat.close();
 
 
     }
