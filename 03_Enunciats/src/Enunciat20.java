@@ -17,7 +17,11 @@ public class Enunciat20 {
             nombreAleatori++;
         }
 
+
+        
         System.out.println("Nombre aleatori: " + nombreAleatori);
+
+
 
         do { // REPETIR
 

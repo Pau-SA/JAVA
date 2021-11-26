@@ -33,6 +33,8 @@ public class Enunciat24 {
             System.out.println();
         }
 
+
+        
         // FOR sortida de dades
         for (int i = 0; i < arrCadenes.length; i++) {
             System.out.println("A la pos " + i + " = " + arrCadenes[i] + " té " + arrLongituds[i] + " caracters i " + arrParaules[i] + " paraules.");

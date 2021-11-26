@@ -5,10 +5,8 @@ public class exercici14_mitupau {
 
         Scanner teclat = new Scanner(System.in);
         int valorentrat, stocbitllets;
-        int bitllets;
         int contador500 = 0, contador200 = 0, contador100 = 0, contador50 = 0, contador20 = 0, contador10 = 0, contador5 = 0;
         int[] arrayinventari = { 500, 200, 100, 50, 20, 10, 5 };
-        int[] arraycanvi = new int[7];
 
         
         // Introduir import canvi
@@ -80,5 +78,9 @@ public class exercici14_mitupau {
         System.out.println("Tindràs " + contador10 + " de 10");
         System.out.println("Tindràs " + contador5 + " de 5");
 
+
+        teclat.close();
     }
+
+    
 }

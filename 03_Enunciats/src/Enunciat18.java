@@ -34,7 +34,7 @@ public class Enunciat18 {
                     totaldones = totaldones + 1;
                 }
                 
-    
+                
                 // System.out.println("El teu sexe es:  " + sexe);
     
                 

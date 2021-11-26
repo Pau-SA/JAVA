@@ -14,7 +14,6 @@ public class Enunciat17 {
 		double importTotal;
 		String nomGranger;
 		String opcioEscollida;
-		// char opcioEscollidaLletra;
 		double preuProducte;
 		double qtatDeGrangers;
 		int[] qtatDeCadaTipus = { 0, 0, 0, 0 };
@@ -46,14 +45,12 @@ public class Enunciat17 {
 
 				if (!(opcioEscollida.equals("A") || opcioEscollida.equals("B") || opcioEscollida.equals("C")
 						|| opcioEscollida.equals("D"))) {
-
 					System.out.println("ERROR, has d'escollir una lletra entre A i D!");
 				}
 
 
 			} while (!(opcioEscollida.equals("A") || opcioEscollida.equals("B") || opcioEscollida.equals("C")
 					|| opcioEscollida.equals("D"))); // REPETIR MENTRE OPCIO NO SIGUI ÉS A o B o C o D
-
 
 
 			if (opcioEscollida.equals("A")) {

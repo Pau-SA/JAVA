@@ -36,14 +36,13 @@ public class Enunciat25 {
             }
         }
 
-        System.out.println("Tindràs " + contadorA + " A");
-        System.out.println("Tindràs " + contadorE + " E");
-        System.out.println("Tindràs " + contadorI + " I");
-        System.out.println("Tindràs " + contadorO + " O");
-        System.out.println("Tindràs " + contadorU + " U");
+        System.out.println("Tindràs " + contadorA + " A" + " a totes les paraules");
+        System.out.println("Tindràs " + contadorE + " E" + " a totes les paraules");
+        System.out.println("Tindràs " + contadorI + " I" + " a totes les paraules");
+        System.out.println("Tindràs " + contadorO + " O" + " a totes les paraules");
+        System.out.println("Tindràs " + contadorU + " U" + " a totes les paraules");
 
         teclat.close();
-
 
     }
 }

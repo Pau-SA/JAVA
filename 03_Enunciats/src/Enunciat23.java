@@ -16,14 +16,18 @@ public class Enunciat23 {
         arrCadenes[4] = "adarga antigua, rocín flaco y galgo corredor";
 
         // FOR procesament de dades
-        for (int i = 0; i < arrCadenes.length; i++) { //LA (I), ES LA POSICIÓ DE LA LÍNEA (SERIEN LES X EN MATES)
+        for (int i = 0; i < arrCadenes.length; i++) { //LA (I), ES LA POSICIÓ DE LA LÍNEA (SERIA LA X EN MATES)
             arrLongituds[i] = arrCadenes[i].length();
         }
+
+        
 
         // FOR sortida de dades
         for (int i = 0; i < arrCadenes.length; i++) {
             System.out.println("A la pos " + i + " = " + arrCadenes[i] + " té " + arrLongituds[i] + " caracters.");
         }
         teclat.close();
+
+
     }
 }
