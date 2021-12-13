@@ -22,6 +22,7 @@ public class Enunciat1 {
 
        
         
+        
 
         teclat.close();
 

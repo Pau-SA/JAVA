@@ -19,5 +19,7 @@ public class practiva3 {
         
         System.out.println("Hi ha " + contador + " números");
 
+
+        teclat.close();
     }
 }

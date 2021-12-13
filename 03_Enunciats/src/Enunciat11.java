@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Enunciat11 {
 	public static void main(String[] args) {
@@ -6,5 +5,7 @@ public class Enunciat11 {
 			System.out.println(i); // alt + shift + flechita avall --> es per duplicar linea
 
 		}
+
+		
 	}
 }

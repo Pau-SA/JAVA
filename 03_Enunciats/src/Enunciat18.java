@@ -10,9 +10,6 @@ public class Enunciat18 {
         int totalhomes = 0;
         int totaldones = 0;
 
-
-        
-
         do{
 
             
@@ -25,7 +22,6 @@ public class Enunciat18 {
                     System.out.println("ERROR, entra un altre cop!! ");
                 }
 
-             
                 if (sexe == 'M'){
                     totalhomes = totalhomes + 1;
                 }

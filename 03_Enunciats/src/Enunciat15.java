@@ -27,7 +27,11 @@ public class Enunciat15 {
 
         System.out.println("El resultat de la operació es " + resultat); 
 
+
+        teclat.close();
     }
+
+
 
 
 }

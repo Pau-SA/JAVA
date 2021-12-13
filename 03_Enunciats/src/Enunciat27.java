@@ -23,7 +23,9 @@ public class Enunciat27 {
 
 
         System.out.println("ABANS!");
-        // FOR per mostrar array abbans de ordenar
+
+
+        // FOR per mostrar array abans de ordenar
         for (int i = 0; i < arrayNombres.length; i++) {
             System.out.println(arrayNombres[i]);
         }
@@ -43,7 +45,6 @@ public class Enunciat27 {
                 }else if(arrResultat == arrayNombres){
                     arrayNombres[i] = arrResultat[i];
                 }
-
             }
         }
 

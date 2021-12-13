@@ -31,24 +31,26 @@ public class Enunciat20 {
                     nombreLlegit = teclat.nextInt();
                     System.out.println("El número llegit és " + nombreLlegit);
                     lecturaCorrecta = true;
+
                 } catch (InputMismatchException excepcioObtinguda) { // CATCH
                     System.out.println("Error no és un nombreLlegit!");
                 }
+                
             } while (lecturaCorrecta == false); // MENTRES lecturaCorrecta sigui false
             // El nombre llegit és correcte, és a dir no és una lletra!
 
 
 
             
-            if (nombreLlegit > nombreAleatori) { // (nombreLlegit <= nombreAleatori)
-                System.out.print("El nombre és més petit.\nTorna a intentar-ho!\n");
+            if (nombreLlegit > nombreAleatori) { // (nombreLlegit > nombreAleatori)
+                System.out.print("\n El nombre és més petit.\nTorna a intentar-ho!\n");
 
             } else if (nombreLlegit < nombreAleatori) { // (nombreLlegit < nombreAleatori)
-                System.out.print("El nombre és més gran.\nTorna a intentar-ho!\n");
+                System.out.print("\n El nombre és més gran.\nTorna a intentar-ho!\n");
 
             } else { // (nombreLlegit = nombreAleatori)
                 nombreEncertat = true;
-                System.out.print("Felicitats!! El número encertat és " + nombreLlegit + "\n");
+                System.out.print("\n Felicitats!! El número encertat és " + nombreLlegit + "\n");
 
             }
 

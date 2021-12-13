@@ -5,31 +5,36 @@ public class Enunciat19 {
         Scanner teclat = new Scanner(System.in);
 
         int dia, mes, any;
-        // (|| = O && = I)
-        System.out.println("Entra el dia: ");
-        dia = teclat.nextInt();
+        // (|| = O      && = I)
 
-        System.out.println("Entra el mes: ");
-        mes = teclat.nextInt();
+        do {
 
-        System.out.println("Entra el any: ");
-        any = teclat.nextInt();
+            System.out.println("Entra el dia: ");
+            dia = teclat.nextInt();
 
-        if (any == 0) {
-            System.out.println("Data incorrecta!");
+            System.out.println("Entra el mes: ");
+            mes = teclat.nextInt();
 
-        } else {
-            if (mes == 2 && (dia >= 1 && dia < 28)) { // pel febrer
-                System.out.println("Data correcta!");
+            System.out.println("Entra el any: ");
+            any = teclat.nextInt();
 
-            } else { // ara fem els que acaben en 31
-                if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12 || mes == 6) {
-                    System.out.println("data correcta");
+            if((dia == 0) || (mes == 0) || (any == 0)){
+                System.out.println("ERROR!! Entra una data vàlida, ESPAVILA");
+            }
 
-                } else {
-                    System.out.println("té 30 dies");
-                }
+        } while (!(dia == 0) || (mes == 0) || (any == 0));
 
+
+
+        if (mes == 2 && (dia >= 1 && dia < 28)) { // pel febrer
+            System.out.println("Data correcta!");
+
+        } else { // ara fem els que acaben en 31
+            if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12 || mes == 6) {
+                System.out.println("data correcta");
+
+            } else {
+                System.out.println("té 30 dies");
             }
 
         }

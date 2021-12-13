@@ -23,6 +23,8 @@ public class Enunciat6 {
 
         System.out.println("El dia de la setmana escollit es:  " + nomsDiaSetmana[diaSetmana -1]);
 
+
+        teclat.close();
     }
 }
 

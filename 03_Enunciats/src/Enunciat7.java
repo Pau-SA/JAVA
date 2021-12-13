@@ -6,7 +6,7 @@ public class Enunciat7 {
         int temperatura;
 
         System.out.print("Entra la temperatura actual: ");
-        temperatura = teclat.nextByte();
+        temperatura = teclat.nextInt();
         if ((temperatura >= -30) && (temperatura <= -15)) {
             System.out.println("Massa fred");
 
@@ -28,6 +28,8 @@ public class Enunciat7 {
         } else if ((temperatura >= 31) && (temperatura <= 45)) {
             System.out.println("Moltíssima Calor");
 
+        }else if((temperatura >= 46)&&(temperatura <=3000)){
+            System.out.println("Estàs casi mort, xaval");
         }
 
         teclat.close();

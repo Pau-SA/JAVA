@@ -29,6 +29,8 @@ public class practiva5 {
         }
 
 
+        teclat.close();
+
     }
 
 }
