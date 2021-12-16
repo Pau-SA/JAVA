@@ -28,7 +28,7 @@ public class Enunciat30 {
 
         for (int i = 0; i < arrPosicions.length; i++) {
             
-            if (i == arrPosicions.length-1){
+            if (i == arrPosicions.length - 1){
                 arrPosicionsFinal[0] = arrPosicions[arrPosicions.length - 1];
             } else {
                 arrPosicionsFinal[i + valorEntrat] = arrPosicions[i];

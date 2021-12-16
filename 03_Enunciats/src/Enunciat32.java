@@ -30,13 +30,12 @@ public class Enunciat32 {
 
         System.out.println(" ");
 
-
         //PER MOSTRAR LES OPERACIONS DEL ARRAY
         for (int i = 0; i < arrPosicions.length; i++) {
             System.out.println("Resultat: " + arrResultat[i]);
         }
 
-        
+
         System.out.println(" ");
 
         // DONAR PER PANTALLA EL RESULTAT DE LES OPERACIONS

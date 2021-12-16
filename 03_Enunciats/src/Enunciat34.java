@@ -20,7 +20,7 @@ public class Enunciat34 {
 
         for (int i = 0; i < arrResultat.length; i++){
             // System.out.print(i + "\n");
-            if (i < arrM.length)
+            if (i < arrM.length) //SI LA [I] ES MÉS PETITA QUE LA LONGITUD DE L'ARRAY M...
                 arrResultat[i] = arrM[i];
             else
                 arrResultat[i] = arrN[i - arrM.length];
