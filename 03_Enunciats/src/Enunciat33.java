@@ -23,10 +23,11 @@ public class Enunciat33 {
 
         // FOR pel procesament
         int diferencia, pos1aDif = 0, pos2aDif = 0, difMaxima = 0;
+        
         for (int i = 0; i < arrayInicial.length; i++) {
             for (int j = i + 1; j < arrayInicial.length; j++) {
                 diferencia = Math.abs(arrayInicial[i] - arrayInicial[j]);
-         
+                
                 if (diferencia > difMaxima) {
                     difMaxima = diferencia;
                     pos1aDif = i;

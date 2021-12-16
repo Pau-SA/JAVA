@@ -19,6 +19,7 @@ public class Enunciat28 {
         for (int i = 0; i < arrNombre.length; i++) {
             arrNombre[i] = (int) (Math.random() * 100);
         }
+        
 
         // PER FER ELS CALCULS DE L'ARRAY
         for (int i = 0; i < arrNombre.length; i++) {

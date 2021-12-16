@@ -16,6 +16,8 @@ public class Enunciat34 {
         System.out.println(" ");
         System.out.println("EXERCICI NÚMEROS DE DESORDENATS --> ORDENATS");
         System.out.println(" ");
+
+
         for (int i = 0; i < arrResultat.length; i++){
             // System.out.print(i + "\n");
             if (i < arrM.length)
@@ -28,8 +30,7 @@ public class Enunciat34 {
 
 
 
-
-        //AIXÒ ES PER ORDENAR L'ARRAY
+        //AIXÒ ES PER ORDENAR L'ARRAY PILLAT DE GOOGLE
         boolean sorted = false;
         int temp;
         while(!sorted) {
