@@ -16,14 +16,14 @@ public class Enunciat_05 {
             
             resultat = resultat * valorEntrat;
             valorEntrat --;
-
+            System.out.print(i);
             teclat.close();
 
 
         }
 
         
-        System.out.println("El teu resultat es " + resultat);
+        System.out.println(" El teu resultat es " + resultat);
 
         
     }
