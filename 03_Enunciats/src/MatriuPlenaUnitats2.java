@@ -15,9 +15,6 @@ public class MatriuPlenaUnitats2 {
         }
 
 
-        
-
-        
         for (int i = 0; i < numero.length; i++) {
             for (int j = 0; j < numero[i].length; j++) {
 

@@ -13,16 +13,16 @@ public class MatriuPlenaUnitats {
 
             }
         }
-            for (int i = 0; i < numero.length; i++) {
-                for (int j = 0; j < numero[i].length; j++) {
 
-                    System.out.print(" " + numero[i][j] + " ");
-                }
-                System.out.println();
+        for (int i = 0; i < numero.length; i++) {
+            for (int j = 0; j < numero[i].length; j++) {
+
+                System.out.print(" " + numero[i][j] + " ");
             }
-
-            teclat.close();
+            System.out.println();
         }
 
+        teclat.close();
     }
 
+}

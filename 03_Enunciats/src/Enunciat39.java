@@ -48,7 +48,10 @@ public class Enunciat39 {
                 System.out.print(MatriuQuadrada[i][j] + " ");
 
             }
+            
+            System.out.println();
         }
+        
         teclat.close();
     }
 }

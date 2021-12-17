@@ -26,7 +26,7 @@ public class Enunciat37 {
             for (int j=0; j < Enters[i].length; j++){
                 System.out.print(Enters[i][j] + " ");
             }
-            System.out.println();
+            System.out.println();//ES ESSENCIAL, PERQUE CADA X CARACTERS PER FILA, FA UN ESPAI
         }
         teclat.close();
     }

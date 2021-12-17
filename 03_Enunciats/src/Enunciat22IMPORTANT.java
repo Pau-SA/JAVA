@@ -3,7 +3,8 @@ public class Enunciat22IMPORTANT {
 
         int[] array = new int[11];
  
-        for (int i=0; i < array.length; i++ ){
+        for (int i=0; i < array.length; i++ ){   
+            
             array[i] = (int) Math.pow(2, i);
             
             if(i == 0){
