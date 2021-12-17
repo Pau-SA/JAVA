@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Enunciat43",
+            "request": "launch",
+            "mainClass": "Enunciat43",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
