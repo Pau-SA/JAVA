@@ -36,7 +36,6 @@ public class Enunciat28 {
         
         System.out.println("\nDins de l'array de valor " + n + " hi ha " + contador + " divisors.");
         teclat.close();
-
     }
 
 }

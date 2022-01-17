@@ -13,17 +13,14 @@ public class Enunciat30 {
         valorEntrat = teclat.nextInt();
 
 
-
         for (int i = 0; i < arrPosicions.length; i++) {
             arrPosicions[i] = (int) (Math.random() * 100);
         }
-
 
             
         for (int i = 0; i < arrPosicions.length; i++) {
             System.out.println("Número: " + arrPosicions[i]);
         }
-
 
 
         for (int i = 0; i < arrPosicions.length; i++) {
@@ -36,11 +33,7 @@ public class Enunciat30 {
 
         }
 
-
-
         System.out.println(" ");
-
-
 
         for (int i = 0; i < arrPosicionsFinal.length; i++) {
             System.out.println(arrPosicionsFinal[i]);

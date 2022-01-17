@@ -4,7 +4,6 @@ public class Enunciat35 {
 
         int[] arrM = {3,7,13,19};
         int[] arrN = {8,10,12};
-        int[] arrResultat = new int[arrM.length + arrN.length];
         boolean esDiferent = true;
 
 

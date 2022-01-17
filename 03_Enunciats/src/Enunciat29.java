@@ -8,7 +8,6 @@ public class Enunciat29 {
 
         for (int i = 0; i < arrPosicions.length; i++) {
             arrPosicions[i] = (int) (Math.random() * 100);
-            // System.out.println("Número: " + arrPosicions[i]);
         }
 
 

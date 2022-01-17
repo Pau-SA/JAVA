@@ -37,12 +37,6 @@ public class Enunciat40 {
             }
             System.out.print("\n");
         }
-
-
-
-
-
-
         teclat.close();
     }
 }

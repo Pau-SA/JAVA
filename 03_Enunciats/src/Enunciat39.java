@@ -20,13 +20,11 @@ public class Enunciat39 {
      
 
 
-//PER OMPLIR LA MATRIU
-
+        //PER OMPLIR LA MATRIU
         int[][] MatriuQuadrada = new int [files][columnes];
 
         for (int i=0; i < MatriuQuadrada.length; i++){
             for (int j=0; j < MatriuQuadrada[i].length; j++){
-
 
                 if(i == j){
                     MatriuQuadrada[i][j] = 1;
@@ -41,7 +39,6 @@ public class Enunciat39 {
         
 
         //PER MOSTRAR LA MATRIU
-
         for (int i=0; i < MatriuQuadrada.length; i++){
             for (int j=0; j < MatriuQuadrada[i].length; j++){
 
