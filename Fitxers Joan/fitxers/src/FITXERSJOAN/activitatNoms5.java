@@ -4,19 +4,18 @@ import java.io.File;
 import java.io.FileWriter;
 import java.util.Scanner;
 
-public class activitatNoms {
+public class activitatNoms5 {
     public static void main(String[] args) {
 
         Scanner punter = null;
         String linia = "";
-
+        File fitxer = new File("fileout.txt");
         try {
-            // Llegim el contingut del fitxer
             System.out.println("... Llegim el contingut del fitxer ...");
-            // punter = new Scanner(enunciats);
+            punter = new Scanner(fitxer);
 
             linia = punter.nextLine(); // Salvem la linia dins d'un String
-            // System.out.println(linia); // Mostrem la linia
+            System.out.println(linia); // Mostrem la linia
 
             String array[];
             array = linia.split("&");
@@ -28,6 +27,7 @@ public class activitatNoms {
             }
 
             for (int i = 0; i < resultat.length; i++) {
+   
                 System.out.println(resultat[i]);
             }
 
@@ -42,6 +42,15 @@ public class activitatNoms {
                 System.out.println("Missatge 2: " + exepcio2.getMessage());
             }
         }
+
+
+
+
+
+
+
+
+        
 
     }
 }

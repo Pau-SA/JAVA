@@ -26,7 +26,7 @@ public class Funcions {
 
 
 
-    
+
 
     //PER MOSTRAR DEL 1 AL N, FENT 1,2,3
     //                             4,5,6
@@ -82,7 +82,7 @@ public class Funcions {
             // Llegim una línia del contingut del fitxer
             while (punter.hasNextLine() || liniaALlegir == 0) {
                 resultat = punter.nextLine(); // Salvem la linia dins d'un String
-                // System.out.println(linia); // Mostrem la linia
+                 System.out.println(resultat); // Mostrem la linia
                 liniaALlegir--;
             }
 

@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.util.Scanner;
 
-public class Enunciats {
+public class actiivitat4 {
     public static void main(String[] args) {
         
         Scanner teclat = new Scanner(System.in);
