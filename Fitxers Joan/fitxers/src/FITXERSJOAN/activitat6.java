@@ -51,16 +51,14 @@ public class activitat6 {
                 // Escrivim línia a línia en el fitxer
                 for (int i = 0; i < matriu.length; i++) {
                     for (int j = 0; j < matriu[i].length; j++) {
-                        if(j < matriu[i].length - 1){
+                        if (j < matriu[i].length - 1) {
                             fitxer.write(String.valueOf(matriu[i][j]) + "#");
-                        }else
-                        fitxer.write(String.valueOf(matriu[i][j]));
+                        } else
+                            fitxer.write(String.valueOf(matriu[i][j]));
 
                     }
                     fitxer.write("\n");
                 }
-
-           
 
                 // Escrivim línia a línia en el fitxer de manera trasposada
                 for (int i = 0; i < matriu.length; i++) {
@@ -68,40 +66,31 @@ public class activitat6 {
 
                         matriuTrasposada[i][j] = matriu[j][i];
 
-                        if(j < matriu[i].length - 1){
+                        if (j < matriu[i].length - 1) {
                             fitxer.write(String.valueOf(matriuTrasposada[i][j]) + "#");
-                        }else
-                        fitxer.write(String.valueOf(matriuTrasposada[i][j]));
+                        } else
+                            fitxer.write(String.valueOf(matriuTrasposada[i][j]));
 
                     }
                     fitxer.write("\n");
                 }
-
 
                 for (int i = 0; i < matriu.length; i++) {
                     for (int j = 0; j < matriu[i].length; j++) {
 
-                        if(i%2 == 0){
+                        if (i % 2 == 0) {
                             fitxer.write(String.valueOf(matriu[i][j]));
-                        }else{
+                        } else {
                             fitxer.write(String.valueOf(matriuTrasposada[i][j]));
 
                         }
- 
                     }
                     fitxer.write("\n");
                 }
 
-
-
-
-
-
-
-
                 fitxer.close();
 
-            } catch (Exception exepcio) {
+            } catch (Exception  lçuexepcio) {
                 System.out.println("Missatge de l'excepció: " + exepcio.getMessage());
             }
 

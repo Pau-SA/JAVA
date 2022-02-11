@@ -30,7 +30,6 @@ public class Funcions {
 
     //PER MOSTRAR DEL 1 AL N, FENT 1,2,3
     //                             4,5,6
-    //AIXI
     public static void writeLineOnFile(String text, boolean linebreak, boolean erase) {
         try {
             fileWriter = new FileWriter(FILENAME, erase);
@@ -55,14 +54,6 @@ public class Funcions {
         }
         return matriu;
     }
-
-
-
-
-
-
-
-
 
 
 

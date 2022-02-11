@@ -42,15 +42,5 @@ public class activitatNoms5 {
                 System.out.println("Missatge 2: " + exepcio2.getMessage());
             }
         }
-
-
-
-
-
-
-
-
-        
-
     }
 }

@@ -40,8 +40,6 @@ public class actiivitat4 {
         } catch (Exception MissatgeError) {
             System.out.println("Error inesperat. " + MissatgeError.getMessage());
         }
-
-
         */
         //#endregion
 
@@ -70,20 +68,8 @@ public class actiivitat4 {
             for (int j = 0; j < matriu[i].length; j++) {
                 text+=matriu[i][j];
             }
-            
             Funcions.writeLineOnFile(text, true, (i==0)?false:true);
         }
-
-
-
-
-
-
-       
         teclat.close();
-
-
-
-
     }
 }

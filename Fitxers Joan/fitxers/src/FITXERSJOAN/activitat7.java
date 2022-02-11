@@ -22,15 +22,15 @@ public class activitat7 {
 
         static int contaLinies() {
             File fitxer = new File(nomFitxer);
-            Scanner punter = null;
+            Scanner teclat = null;
             int contador = 0;
             try {
                 // Llegim el contingut del fitxer
-                punter = new Scanner(fitxer);
+                teclat = new Scanner(fitxer);
 
-                while (punter.hasNextLine()) {
+                while (teclat.hasNextLine()) {
                     contador++;
-                    punter.nextLine();
+                    teclat.nextLine();
                 }
 
             } catch (Exception exepcio1) {
@@ -38,8 +38,8 @@ public class activitat7 {
             } finally {
                 // Tanquem el fitxer tant si la lectura ha estat correcta o no
                 try {
-                    if (punter != null)
-                        punter.close();
+                    if (teclat != null)
+                        teclat.close();
                 } catch (Exception exepcio2) {
                     System.out.println("Missatge 2: " + exepcio2.getMessage());
                 }
@@ -51,11 +51,15 @@ public class activitat7 {
             System.out.print(cadena);
         }
 
+
+
         public static void mostraAgenda(String[][] agenda) {
             for (int i = 0; i < agenda.length; i++) {
                 System.out.println((i + 1) + agenda[i][0] + " -" + agenda[i][1] + " - " + agenda[i][2]);
             }
         }
+
+
 
         public static void omplirMatriu(String[][] agenda) {
             File fitxer = new File(nomFitxer);
@@ -109,15 +113,22 @@ public class activitat7 {
                     nombreLlegit = teclat.nextInt();
                     esEnter = true;
                 } catch (Exception e) {
-                    mostrarMissatge("\n        ---  ERROR!  ---"
-                            + "\n        Només pots entrar nombres!"
-                            + "\n        Torna a intentar-ho: ");
+                    mostrarMissatge("\n--- ERROR! ---" + "\nNomés pots entrar nombres!" + "\nTorna a intentar-ho: ");
                     esEnter = false;
                     teclat.nextLine();
                 }
             } while (esEnter == false);
             return nombreLlegit;
         }
+
+
+
+
+
+
+
+
+        //AQUI ES ON MOSTREM LES FUNCIONS --> AL MAIN
 
         public static void main(String[] args) {
             String[][] agenda = new String[contaLinies()][QTAT_CAMPS];
@@ -126,12 +137,14 @@ public class activitat7 {
 
             int opcio = 0;
             String[][] operacions = {
-                    { "Afegir contacte.", "Añadir contacto." },
-                    { "Esborrar contacte.", "Borrar contacto." },
-                    { "Modificar contacte.", "Modificar contacto." },
-                    { "Mostrar String[]s.", "Mostrar contactos." },
-                    { "Sortir i guardar dades", "Salir y guardar datos." },
-                    { "Sortir sense guardar.", "Salir sin guardar." } };
+                { "Afegir contacte.", "Añadir contacto." },
+                { "Esborrar contacte.", "Borrar contacto." },
+                { "Modificar contacte.", "Modificar contacto." },
+                { "Mostrar String[]s.", "Mostrar contactos." },
+                { "Sortir i guardar dades", "Salir y guardar datos." },
+                { "Sortir sense guardar.", "Salir sin guardar." } 
+            };
+
 
             int idioma;
             boolean volsSortir = false;
@@ -147,6 +160,8 @@ public class activitat7 {
                 mostraMenu(operacions, idioma);
                 opcio = llegirEnterTeclat();
 
+                // OPCIO -1 VOL DIR QUE COM COMENÇA LES OPCIONS DESDE 0,
+                //  PERQUE CONCORDIN, LI HEM DE RESTAR 1
                 switch (opcio) {
                     case 1: // Afegir
                         System.out.println(operacions[opcio - 1]);
@@ -155,7 +170,7 @@ public class activitat7 {
                         System.out.println(operacions[opcio - 1]);
                         break;
                     case 3: // Modificar
-                        System.out.println(operacions[opcio - 1]);
+                        System.out.println(operacions[opcio - 1]); 
                         break;
                     case 4: // Mostrar
                         mostraAgenda(agenda);
