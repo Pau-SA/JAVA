@@ -90,7 +90,7 @@ public class activitat6 {
 
                 fitxer.close();
 
-            } catch (Exception  lçuexepcio) {
+            } catch (Exception exepcio) {
                 System.out.println("Missatge de l'excepció: " + exepcio.getMessage());
             }
 
