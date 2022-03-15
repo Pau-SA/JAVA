@@ -17,9 +17,7 @@ public class Enunciat35 {
         System.out.println("Segona array N té: " + arrN[i]);
         }
 
-
-        System.out.println();
-
+        
 
         
         for (int i = 0; i < arrM.length; i++){
