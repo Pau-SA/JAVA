@@ -8,7 +8,7 @@ public class Exemple2 {
         String linea;
 
         try{
-            File fitxer = new File ("fitxer.txt");
+            File fitxer = new File ("fitxer.text");
             Scanner escanerFitxer = new Scanner(fitxer);
 
             while (escanerFitxer.hasNextLine()){

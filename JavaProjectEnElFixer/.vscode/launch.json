@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exemple1",
+            "request": "launch",
+            "mainClass": "Exemple1",
+            "projectName": "Java Project en el fixer_677f9829"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exemple1Prova",
+            "request": "launch",
+            "mainClass": "Exemple1Prova",
+            "projectName": "Java Project en el fixer_677f9829"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exemple2",
+            "request": "launch",
+            "mainClass": "Exemple2",
+            "projectName": "Java Project en el fixer_677f9829"
+        },
+        {
+            "type": "java",
+            "name": "Launch MenjarNado",
+            "request": "launch",
+            "mainClass": "MenjarNado",
+            "projectName": "Java Project en el fixer_677f9829"
+        },
+        {
+            "type": "java",
+            "name": "Launch MenjarNado2",
+            "request": "launch",
+            "mainClass": "MenjarNado2",
+            "projectName": "Java Project en el fixer_677f9829"
+        },
+        {
+            "type": "java",
+            "name": "Launch RestaurantCorralPau",
+            "request": "launch",
+            "mainClass": "RestaurantCorralPau",
+            "projectName": "Java Project en el fixer_677f9829"
+        },
+        {
+            "type": "java",
+            "name": "Launch VerbsCorralPauCarboMarc",
+            "request": "launch",
+            "mainClass": "VerbsCorralPauCarboMarc",
+            "projectName": "Java Project en el fixer_677f9829"
+        },
+        {
+            "type": "java",
+            "name": "Launch llegirIescriure",
+            "request": "launch",
+            "mainClass": "llegirIescriure",
+            "projectName": "Java Project en el fixer_677f9829"
+        }
+    ]
+}

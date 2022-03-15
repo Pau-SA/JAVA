@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Enunciat41",
+            "request": "launch",
+            "mainClass": "Enunciat41",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat10",
+            "request": "launch",
+            "mainClass": "Enunciat10",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat44PROVA",
+            "request": "launch",
+            "mainClass": "Enunciat44PROVA",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat44",
+            "request": "launch",
+            "mainClass": "Enunciat44",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enunciat27",
+            "request": "launch",
+            "mainClass": "Enunciat27",
+            "projectName": "JAVA_5c564501"
+        },
+        {
+            "type": "java",
             "name": "Launch Enunciat43",
             "request": "launch",
             "mainClass": "Enunciat43",

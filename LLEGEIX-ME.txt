@@ -1,0 +1,3 @@
+1- Entrar a SRC
+2-Arxiu VerbsCorralPau
+3-L'arxiu fileout.txt s'opla amb 2GB sol
