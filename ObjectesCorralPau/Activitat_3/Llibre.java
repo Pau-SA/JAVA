@@ -69,7 +69,13 @@ public class Llibre {
 
 
 
+    public void agafarEnPrestec(){
 
+    }
+
+    public void retornarDePrestec(){
+        
+    }
 
 
 }

@@ -12,13 +12,13 @@ public class Compte {
         }
         
                             //SI ES COMPLEIX             SINO FARA AIXÒ
-        this.quantitat = (this.quantitat > 0)? 0 : quantitat + quantitatRebuda;
+        // this.quantitat = (this.quantitat > 0)? 0 : quantitat + quantitatRebuda;
     }
 
 
     public void retirar(float quantitatARetirar){
 
-        this.quantitat = ((this.quantitat - quantitatARetirar) < 0)? 0 : quantitat - quantitatARetirar;
+        // this.quantitat = ((this.quantitat - quantitatARetirar) < 0)? 0 : quantitat - quantitatARetirar;
 
         if((quantitat - quantitatARetirar) < 0){
             this.quantitat = 0;
