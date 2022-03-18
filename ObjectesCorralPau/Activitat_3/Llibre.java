@@ -21,8 +21,8 @@ public class Llibre {
     public Llibre(){
         this.titol = "";
         this.autor = "";
-        this.exemplars = "";
-        this.prestecs = "";
+        this.exemplars = 0;
+        this.prestecs = 0;
     } 
 
 
@@ -66,5 +66,10 @@ public class Llibre {
     public String toString() {
         return "Titol: " + titol + "\n" + "Autor: " + autor + "\n"+ "Exemplars: " + exemplars + "\n" +  "Prestecs: " + prestecs + "\n";
     }
+
+
+
+
+
 
 }
