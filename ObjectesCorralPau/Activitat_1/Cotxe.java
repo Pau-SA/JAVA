@@ -8,10 +8,11 @@ public class Cotxe {
     private String matricula;
 
     // CONSTRUCTORS
-    public Cotxe(String _marca, String _model, int _color) {
+    public Cotxe(String _marca, String _model, String _color) {
         this.marca = _marca;
         this.model = _model;
         this.color = _color;
+        generarMatricula();
     }
 
     public Cotxe() {
@@ -46,20 +47,39 @@ public class Cotxe {
         color = _color;
     }
 
-    public void matricula() {
+    public void generarMatricula() {
 
-        int max = 19999;
-        int min = 10000;
-        char abecedari[] = {'B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'R', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y', 'Z'};
-        String lletresMatricula;
+        char[] banned = {'E','I','O','U'};
 
-        int numerosMatricula = (int) (Math.random() * (max - min) + min);
-        lletresMatricula = Character.toString(tornaLletra() + Character.toString(tornaLletra()) +  Character.toString(tornaLletra())) ;
+        this.matricula = Integer.toString(randomNumbers(19999, 10000)).substring(1);
+        for (int i = 0; i < 3; i++) {
+            boolean esVocal = false;
+            char lletra;
+            do{
+                esVocal = false;
+                lletra = (char)randomNumbers(90, 66);
+                for (char c : banned) {
+                    if (lletra == c) esVocal = true;
+                }
+            }while(esVocal);
 
+            this.matricula += lletra;
+            
+        }
     }
 
-    private char tornaLletra() {
-        return (char)(Math.random() * (90 - 66) + 66);
+
+
+    //FER EL TO STRING
+    public String toString() {
+        return "Marca: " + marca + "\n" + "Model: " + model + "\n"+ "Color: " + color + "\n" +  "Matricula: " + matricula + "\n";
     }
+
+
+    //FUNCIO PER FER RANDOM LLETRES I NUMEROS DE LA MATRICULA
+    private int randomNumbers(int max, int min) {
+        return (int) (Math.random() * (max - min) + min);
+    }
+
 
 }
