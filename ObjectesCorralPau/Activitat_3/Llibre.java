@@ -69,7 +69,11 @@ public class Llibre {
 
 
 
-    public void agafarEnPrestec(){
+    public void agafarEnPrestec(int exemplarsRebuts, int prestecsRebuts){
+
+        if(prestecsRebuts > prestecs){
+            prestecsRebuts++;
+        }
 
     }
 
