@@ -71,15 +71,24 @@ public class Llibre {
 
     public void agafarEnPrestec(int exemplarsRebuts, int prestecsRebuts){
 
-        if(prestecsRebuts > prestecs){
+        if(exemplarsRebuts > 0){
+            exemplarsRebuts--;
             prestecsRebuts++;
         }
 
-    }
-
-    public void retornarDePrestec(){
+        this.exemplars = exemplarsRebuts;
+        this.prestecs = prestecsRebuts;
         
     }
 
+    public void retornarDePrestec(int exemplarsRebuts, int prestecsRebuts){
+
+        exemplarsRebuts++;
+        prestecsRebuts--;
+        
+        this.exemplars = exemplarsRebuts;
+        this.prestecs = prestecsRebuts;
+        
+    }
 
 }
