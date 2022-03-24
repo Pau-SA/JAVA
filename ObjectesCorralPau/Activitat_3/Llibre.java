@@ -69,25 +69,34 @@ public class Llibre {
 
 
 
-    public void agafarEnPrestec(int exemplarsRebuts, int prestecsRebuts){
+    public void agafarEnPrestec(){
 
-        if(exemplarsRebuts > 0){
-            exemplarsRebuts--;
-            prestecsRebuts++;
+        if(this.prestecs < this.exemplars){
+            this.prestecs++;
         }
 
-        this.exemplars = exemplarsRebuts;
-        this.prestecs = prestecsRebuts;
+        // if(exemplarsRebuts > 0){
+        //     exemplarsRebuts--;
+        //     prestecsRebuts++;
+        // }
+
+        // this.exemplars = exemplarsRebuts;
+        // this.prestecs = prestecsRebuts;
         
     }
 
-    public void retornarDePrestec(int exemplarsRebuts, int prestecsRebuts){
+    public void retornarDePrestec(){
 
-        exemplarsRebuts++;
-        prestecsRebuts--;
+        // exemplarsRebuts++;
+        // prestecsRebuts--;
         
-        this.exemplars = exemplarsRebuts;
-        this.prestecs = prestecsRebuts;
+        // this.exemplars = exemplarsRebuts;
+        // this.prestecs = prestecsRebuts;
+
+        if((this.prestecs <= this.exemplars) && (this.prestecs > 0)){
+            this.prestecs--;
+        }
+
         
     }
 
