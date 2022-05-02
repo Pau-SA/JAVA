@@ -1,103 +1,83 @@
 package Activitat_3;
-
 public class Llibre {
-    
     private String titol;
     private String autor;
     private int exemplars;
-    private int prestecs;
+    private int prestec;
+    
 
-
-
-    public Llibre(String _titol, String _autor, int _exemplars, int _prestecs){
-        this.titol = _titol;
-        this.autor = _autor;
-        this.exemplars = _exemplars;
-        this.prestecs = _prestecs;
-
-    } 
-
-
-    public Llibre(){
+    //CONSTRUCTORS
+    public Llibre() {
         this.titol = "";
         this.autor = "";
         this.exemplars = 0;
-        this.prestecs = 0;
-    } 
-
-
-
-    public String GetTitol(){
-        return titol;
+        this.prestec = 0;
     }
-
-    public void SetTitol(String _titol){
-        this.titol = _titol;
+    
+    public Llibre(String titolRebut, String autorRebut, int exemplarRebut, int prestecRebut) {
+        this.titol = titolRebut;
+        this.autor = autorRebut;
+        this.exemplars = exemplarRebut;
+        this.prestec = prestecRebut;
     }
+    
 
-
-
-    public String GetAutor(){
-        return autor;
+    //GETTERS I SETTERS
+    public String getTitol() {
+        return this.titol;
     }
-    public void SetActor(String _autor){
-        this.autor = _autor;
+    
+    public void setTitol(String titolRebut) {
+        this.titol = titolRebut;
     }
-
-
-    public int GetExemplars(){
-        return exemplars;
+    
+    public String getAutor() {
+        return this.autor;
     }
-    public void SetExemplars(int _exemplars){
-        this.exemplars = _exemplars;
+    
+    public void setAutor(String autorRebut) {
+        this.autor = autorRebut;
     }
-
-
-    public int GetPrestecs(){
-        return prestecs;
+    
+    public int getExemplars() {
+        return this.exemplars;
     }
-    public void SetPrestecs(int _prestecs){
-        this.prestecs = _prestecs;
+    
+    public void setExemplars(int exemplarsRebut) {
+        this.exemplars = exemplarsRebut;
     }
+    
+    public int getPrestec() {
+        return this.prestec;
+    }
+    
+    public void setPrestec(int prestecRebut) {
+        this.prestec = prestecRebut;
+    }
+    
 
-
-
-
+    //TO STRING
     public String toString() {
-        return "Titol: " + titol + "\n" + "Autor: " + autor + "\n"+ "Exemplars: " + exemplars + "\n" +  "Prestecs: " + prestecs + "\n";
+        return "Llibre\n" 
+        + " -- TITOL            = " +  this.titol + ",\n"
+        + " -- AUTOR            = " +  this.autor + ",\n"
+        + " -- EXEMPLARS        = " +  this.exemplars + ",\n"
+        + " -- PRESTECS         = " +  this.prestec + "\n";
     }
+    
 
-
-
+    // MÈTODES
+    // * -> agafarEnPrestec
+    // * -> retornarDePrestec
+    
     public void agafarEnPrestec(){
-
-        if(this.prestecs < this.exemplars){
-            this.prestecs++;
+        if(this.prestec < this.exemplars){
+            this.prestec ++;
         }
-
-        // if(exemplarsRebuts > 0){
-        //     exemplarsRebuts--;
-        //     prestecsRebuts++;
-        // }
-
-        // this.exemplars = exemplarsRebuts;
-        // this.prestecs = prestecsRebuts;
-        
     }
-
     public void retornarDePrestec(){
-
-        // exemplarsRebuts++;
-        // prestecsRebuts--;
-        
-        // this.exemplars = exemplarsRebuts;
-        // this.prestecs = prestecsRebuts;
-
-        if((this.prestecs <= this.exemplars) && (this.prestecs > 0)){
-            this.prestecs--;
+        if((this.prestec <= this.exemplars) && (this.prestec > 0 )){
+            this.prestec --;
         }
-
-        
     }
-
 }

@@ -70,8 +70,5 @@ public class Compte {
     public void setQuantitat(float _quantitat) {
         this.quantitat = _quantitat;
     }
-
-
-
     
 }
