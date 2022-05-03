@@ -22,8 +22,8 @@ public class PasswordGenerator {
         this.contrasenya = generarContrasenya();
     }
 
+    
     // Setters i Getters
-
     public int getLongitud() {
         return longitud;
     }

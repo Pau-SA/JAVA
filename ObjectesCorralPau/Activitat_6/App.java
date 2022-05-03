@@ -32,7 +32,7 @@ public class App {
             if (arrayContrasenya[i].esForta()) {
                 System.out.print("La contrasenya " + arrayContrasenya[i].getContrasenya() + " és FORTA!\n");
             } else {
-                System.out.print("La contrasenya " + arrayContrasenya[i].generarContrasenya() + " és feble!\n");
+                System.out.print("La contrasenya " + arrayContrasenya[i].generarContrasenya() + " és FEBLE!\n");
             }
             
         }
